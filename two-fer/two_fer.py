@@ -1,10 +1,9 @@
-def two_fer(name):
+def two_fer(nombre = ""):
 
 
-    nombre = input("")
-    if numero == "Alice":
-        print('One for Alice, one for me.')
-    elif numero == "Bob":
-        print('One for Bob, one for me.')
-    else:
-        print('One for you, one for me.')
+    if nombre == "Bob":
+        return "One for Bob, one for me."
+    elif nombre == "Alice":
+        return'One for Alice, one for me.'
+    elif nombre == "":
+        return "One for you, one for me."
